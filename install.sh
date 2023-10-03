@@ -19,8 +19,8 @@ echo "############"
 echo "WARNING"
 echo "This step will change your environment config!"
 echo "############"
-echo "PATH=$PATH:/SlackQuickInstaller" > ~/.bashrc
-echo "PATH=$PATH:/SlackQuickInstaller" > /etc/environment
+echo "PATH=$PATH:/SlackQuickInstaller" >> ~/.bashrc
+echo "PATH=$PATH:/SlackQuickInstaller" >> /etc/environment
 
 echo "Cloning the git repo from SlackBuilds..."
 git clone git://git.slackbuilds.org/slackbuilds ./Slackbuilds
