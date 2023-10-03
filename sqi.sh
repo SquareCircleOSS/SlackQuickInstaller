@@ -14,6 +14,9 @@ SLACKBUILDS_ROOT="/SlackQuickInstaller/Slackbuilds"
 #cd to Slackbuilds dir
 cd ${SLACKBUILDS_ROOT}
 
+#update Slackbuilds repo at first
+git pull
+
 #find package name
 PKG_NAME=$1
 FIND_RESULT=$(find ./ -iname ${PKG_NAME} -type d)
