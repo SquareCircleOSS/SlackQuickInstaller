@@ -15,6 +15,10 @@ echo "Copy the files of SlackQuickInstaller"
 cp -r ./* /SlackQuickInstaller/
 
 echo "Adding the directory into PATH"
+echo "############"
+echo "WARNING"
+echo "This step will change your environment config!"
+echo "############"
 echo "PATH=$PATH:/SlackQuickInstaller" > ~/.bashrc
 echo "PATH=$PATH:/SlackQuickInstaller" > /etc/environment
 
