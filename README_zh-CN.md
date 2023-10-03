@@ -10,10 +10,10 @@ Clone这个仓库
 git clone https://github.com/FakeMirrorOSS/SlackQuickInstaller.git
 ```
 
-运行 "RunThisAtFirst.sh"
+运行 "install.sh"
 
 ```bash
-sudo ./RunThisAtFirst.sh
+sudo ./install.sh
 ```
 
 完成.
